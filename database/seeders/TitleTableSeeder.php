@@ -21,31 +21,31 @@ class TitleTableSeeder extends Seeder
                 'category_id' => 1,
                 'title' => 'フロントエンドクイズ',
                 'description' => 'フロントエンドにまつわるクイズです。',
-                'thumbnail' => 'frontend.png'
+                'thumbnail' => 'https://techblog.recochoku.jp/wp-content/uploads/2019/11/vue.png'
             ],
             [
                 'category_id' => 2,
                 'title' => 'ギタークイズ',
                 'description' => 'ギターにまつわるクイズです。',
-                'thumbnail' => 'quitar.png'
+                'thumbnail' => 'https://i0.wp.com/guitar-hakase.com/wp-content/uploads/2018/08/history-guitars.jpg?fit=1100%2C539&ssl=1'
             ],
             [
                 'category_id' => 3,
                 'title' => 'サピエンス全史クイズ',
                 'description' => '「サピエンス全史」に関するクイズです。',
-                'thumbnail' => 'homo.png'
+                'thumbnail' => 'https://miro.medium.com/max/2560/1*1L6XXhNwVWFed1rpNeUQkw.jpeg'
             ],
             [
                 'category_id' => 4,
                 'title' => 'ビジネスパーソンの常識クイズ',
                 'description' => '現在社会に生きるビジネスパーソンの常識に関するクイズです。',
-                'thumbnail' => 'business-person.png'
+                'thumbnail' => 'https://www.liber.co.jp/knowhow/column/img/column720.jpg'
             ],
             [
                 'category_id' => 5,
                 'title' => 'ぽよちゃんたちクイズ',
                 'description' => 'ぽよちゃんたちに関するクイズです',
-                'thumbnail' => 'poyo.png'
+                'thumbnail' => 'https://images-na.ssl-images-amazon.com/images/I/51K8IdT44zL._AC_SX466_.jpg'
             ],
         ];
 
