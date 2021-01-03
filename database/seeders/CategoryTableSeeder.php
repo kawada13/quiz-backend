@@ -37,6 +37,11 @@ class CategoryTableSeeder extends Seeder
                 'thumbnail' => 'business.png',
                 'sort' => 4
             ],
+            [
+                'name' => 'ぽよちゃんたち',
+                'thumbnail' => 'poyo.png',
+                'sort' => 5
+            ],
         ];
 
         foreach($categories as $categoy) {

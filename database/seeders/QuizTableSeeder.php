@@ -177,6 +177,46 @@ class QuizTableSeeder extends Seeder
                 'answer' => 3,
                 'description' => '会計のお話です。'
             ],
+            [
+                'title_id' => 5,
+                'question' => 'ぽよの誕生日は何日？',
+                'answer1' => '3月8日',
+                'answer2' => '3月9日',
+                'answer3' => '3月10日',
+                'answer4' => '3月11日',
+                'answer' => 2,
+                'description' => 'わかって当然だよね！'
+            ],
+            [
+                'title_id' => 5,
+                'question' => 'おねーたんが食べ物を欲しがるときによく使う数字は？',
+                'answer1' => '2',
+                'answer2' => '4',
+                'answer3' => '5',
+                'answer4' => '10',
+                'answer' => 3,
+                'description' => 'おねーたんは5個！'
+            ],
+            [
+                'title_id' => 5,
+                'question' => 'まりたんの好きな食べ物は？',
+                'answer1' => 'パン',
+                'answer2' => 'クッキー',
+                'answer3' => 'チョコレート',
+                'answer4' => '唐揚げ',
+                'answer' => 1,
+                'description' => '夜に内緒でパンた〜べよ'
+            ],
+            [
+                'title_id' => 5,
+                'question' => 'もんちゃんの代表的な叫び声は？',
+                'answer1' => 'うわーーーー！',
+                'answer2' => 'いやーーーー！',
+                'answer3' => 'もーーーー！',
+                'answer4' => 'あーーーーっ！',
+                'answer' => 4,
+                'description' => 'でかおーーーーっ！'
+            ],
         ];
 
         foreach($quizs as $quiz) {

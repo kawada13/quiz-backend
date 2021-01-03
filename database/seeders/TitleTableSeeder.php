@@ -41,6 +41,12 @@ class TitleTableSeeder extends Seeder
                 'description' => '現在社会に生きるビジネスパーソンの常識に関するクイズです。',
                 'thumbnail' => 'business-person.png'
             ],
+            [
+                'category_id' => 5,
+                'title' => 'ぽよちゃんたちクイズ',
+                'description' => 'ぽよちゃんたちに関するクイズです',
+                'thumbnail' => 'poyo.png'
+            ],
         ];
 
         foreach($titles as $title) {
