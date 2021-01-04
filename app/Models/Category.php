@@ -9,5 +9,4 @@ class Category extends Model
 {
     use HasFactory;
 
-    protected $visible = ['id', 'name', 'sort', 'thumbnail'];
 }

@@ -19,15 +19,16 @@ use App\Models\AnswerHistoryz;
 |
 */
 
-// Route::middleware('auth:api')->get('/user', function (Request $request) {
-//     return $request->user();
-// });
 Route::get('/titles/new', function () {
     return Title::latest()->take(5)->get();
 });
 
 Route::get('/categories', function () {
     return Category::all();
+});
+
+Route::get('/category', function (Request $request) {
+    return Category::find($request->category_id);
 });
 
 Route::get('/titles', function (Request $request) {

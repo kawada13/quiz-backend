@@ -9,5 +9,4 @@ class Title extends Model
 {
     use HasFactory;
 
-    protected $visible = ['id', 'title', 'description', 'thumbnail'];
 }
